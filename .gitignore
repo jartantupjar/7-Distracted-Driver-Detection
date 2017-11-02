@@ -5,6 +5,7 @@ __pycache__/
 
 #data files
 data/*
+data/imgs.zip
 
 # C extensions
 *.so
