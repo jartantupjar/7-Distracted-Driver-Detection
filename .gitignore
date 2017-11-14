@@ -5,6 +5,9 @@ __pycache__/
 
 #data files
 data/*
+subm/*
+cache/*
+saved_models/*
 data/imgs.zip
 
 # C extensions
