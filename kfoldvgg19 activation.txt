@@ -1,0 +1,27 @@
+VGG19 10ep 3 fold- activation function results:
+relu-0.460
+selu-0.439- does better than relu
+sigmoid- 0.509
+elu - 0.486
+softplus - 0.357
+softsign - 0.461
+tanh - 0.464
+hard_sigmoid - 0.487 
+linear - 0.512
+~~~
+try:		
+dual model(eg. resnet+vgg19)
+dual model(eg. globalmax+globalavg)
+random weights
+Resnet 50
+
+trying:
+momentum ~
+learning rate
+
+tried:
+flatten-failed experiment
+dropout- no positive impact
+activation - no meaningful difference
+datagen(3,3,3,2) ~ fail
+globalavg+high no of epochs ~ not better than globalmax 

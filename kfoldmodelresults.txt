@@ -1,5 +1,5 @@
 model results
-3 Kfold 7ep 0.4datagen SGD
+3 Kfold 7ep 0.4datagen SGD											
 InceptionResnetv2 - 0.16 
 InceptionV3 - 0.16
 VGG16a - 0.12 (10ep)
@@ -9,3 +9,20 @@ VGG19b -0.10 (maxpooling)
 Xception- 0.17
 MobileNet- 0.13
 
+
+vgg19 selu alphadropout 0.20 - v loss 0.103
+	0.684
+	0.345
+	0.482
+vgg19 selu alphadropout 0.10 dropout 0.1 - v loss 0.139			0.491
+	0.365
+	0.485
+VGG19 relu datagen(5,5,5,2) momentum 0.7 - 0.142
+	0.617
+        0.413
+        0.625
+VGG19 relu datagen(6,4,4,2)mom 0.9 - 
+	0.524
+
+VGG19 relu datagen(7,4,4,2) - 0.135
+	0.459
