@@ -1,1 +1,0 @@
-log_loss:  0.0224781596271 valsplit=0.2, epoch=5,batch=20
